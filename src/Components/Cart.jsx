@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { ShopContext } from './ShopContext';
-import { TbTrash } from 'react-icons/tb';
+import { TbTrash } from "react-icons/tb";
 import { IoRemove } from 'react-icons/io5';
 import { IoMdAdd } from 'react-icons/io';
 import { RiShoppingBag3Line } from "react-icons/ri";
