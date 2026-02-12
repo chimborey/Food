@@ -4,7 +4,6 @@ import { FaTrash } from "react-icons/fa";
 import { IoRemove } from 'react-icons/io5';
 import { RiShoppingBag3Line } from "react-icons/ri";
 import { IoMdAdd } from 'react-icons/io';
-import "react-icons/fa"
 const Cart = () => {
   const { cart, removeFromCart, clearCart, increaseQuantity, decreaseQuantity, quantity, total } = useContext(ShopContext)
   return (
