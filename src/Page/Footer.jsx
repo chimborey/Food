@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiPhonepe } from "react-icons/si";
+// import { SiPhonepe } from "react-icons/si";
 
 const Footer = () => {
   return (
