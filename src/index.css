@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======================================color================================= */
+.purple{
+      color: oklch(94.6% 0.033 307.174);
+}
+.amber {
+      color: oklch(62.647% 0.10677 192.392);
+}
+
+.neutral {
+      color: oklch(55.2% 0.016 285.938);
+}
+
+.yellow {
+      color: oklch(90.5% 0.182 98.111);
+}
+
+/* bg-color */
+.bg-purple {
+      color: oklch(94.6% 0.033 307.174);
+}
+
+.bg-orange {
+      background-color: oklch(26.6% 0.079 36.259);
+}
+
+.bg-lime {
+      background-color: oklch(27.4% 0.072 132.109);
+}
+
+.bg-slate {
+      background-color: oklch(12.9% 0.042 264.695);
+}
+
+.bg-blue {
+      background-color: oklch(45.7% 0.24 277.023);
+}
+
+/* =====================font========================================= */
+/* font-title */
+.font-title {
+      font-family: "Bungee", sans-serif;
+      text-transform: capitalize;
+      font-size: 1.5rem;
+}
+.font-menu {
+      font-family: "Bungee", sans-serif;
+      text-transform: capitalize;
+      font-size: 1rem;
+}
+/* font-text */
+.font-text {
+      font-family: "Bungee", sans-serif;
+      font-size: 1rem;
+      text-transform: uppercase;
+      transition: all 0.5s linear;
+      /* color: oklch(55.2% 0.016 285.938); */
+
+}
+
+.font-text:hover {
+      transition-duration: 0.5s;
+      transform: scale(1.3);
+      text-decoration: underline;
+      color: oklch(87.9% 0.169 91.605);
+}
+
+/* font-desc */
+.font-desc {
+      font-family: "Playwrite NZ Basic", cursive;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: oklch(99.779% 0.00104 11.135);
+}
+
+.btn{
+      width: 130px;
+      display: block;
+      text-transform: capitalize;
+      padding: 5px 25px;
+      border: 1px solid oklch(90.5% 0.182 98.111);
+      outline: none;
+      border-radius: 7px;
+      transition: all 0.5s linear;
+      color: oklch(99.779% 0.00104 11.135);
+      text-align: center;
+}
+
+.btn:hover {
+      background-color: oklch(90.5% 0.182 98.111);
+      transform: rotate(2deg);
+      transition-duration: 0.5s;
+      color: oklch(62.647% 0.10677 192.392);
+}
+
+.cart {
+      width: 230px;
+      display: block;
+      padding: 5px 25px;
+      border: 1px solid oklch(90.5% 0.182 98.111);
+      outline: none;
+      border-radius: 7px;
+      text-transform: capitalize;
+      transition: all 0.5s linear;
+      color: oklch(94.6% 0.033 307.174);
+      text-align: center;
+      cursor: pointer;
+      margin-bottom: 30px;
+}
+
+.cart:hover {
+      background-color: oklch(90.5% 0.182 98.111);
+      transform: rotate(2deg);
+      transition-duration: 0.5s;
+}
+
+.check{
+      width: 100%;
+      display: block;
+      padding: 5px 25px;
+      border: 1px solid oklch(90.5% 0.182 98.111);
+      outline: none;
+      border-radius: 7px;
+      background-color: blue;
+      text-transform: capitalize;
+      transition: all 0.5s linear;
+      color: oklch(94.6% 0.033 307.174);
+      text-align: center;
+      cursor: pointer;
+      margin-top: 20px;
+}
+
+.check:hover {
+      background-color: oklch(90.5% 0.182 98.111);
+      transform:scale(.9);
+      transition-duration: 0.5s;
+}
+
+
+/* body {
+      width: 100%;
+      height: 100vh;
+} */
