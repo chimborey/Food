@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { ShopContext } from './ShopContext';
-import { TbTrash } from "react-icons/tb";
+import { FaTrash } from "react-icons/fa";
 import { IoRemove } from 'react-icons/io5';
 import { RiShoppingBag3Line } from "react-icons/ri";
 import { IoMdAdd } from 'react-icons/io';
@@ -15,7 +15,7 @@ const Cart = () => {
         <div className='flex justify-between items-center border-b pb-4'>
           <h1 className='font-menu bg-purple'>shopping cart</h1>
           <h1 className='font-menu bg-purple '>items: ({quantity})</h1>
-          <TbTrash onClick={clearCart} className='text-red-500 text-2xl cursor-pointer' />
+          <FaTrash onClick={clearCart} className='text-red-500 text-2xl cursor-pointer' />
         </div>
         {/* subheader */}
         <div className='grid grid-cols-4 font-menu yellow font-semibold mt-6 pb-2 border-b '>
@@ -35,7 +35,7 @@ const Cart = () => {
                     <img src={img} alt="" className='w-16 h-16 rounded-md' />
                     <div>
                       <h3 className='font-semibold mb-7 font-menu bg-purple'>{title}</h3>
-                      <button onClick={() => removeFromCart(id)} className='text-red-600 text-sm flex items-center gap-1 mt-2 '><TbTrash />Remove</button>
+                      <button onClick={() => removeFromCart(id)} className='text-red-600 text-sm flex items-center gap-1 mt-2 '><FaTrash />Remove</button>
                     </div>
                   </div>
 
