@@ -1,25 +1,25 @@
 
 
 import Img1 from '../src/assets/img04.jpg' // import Img4
-import D1 from '../src/assets/Data1.jpg' // import Img4
-import D2 from '../src/assets/Data2.jpg' // import Img4
-import D3 from '../src/assets/Data3.jpg' // import Img4
-import D4 from '../src/assets/Data4.jpg' // import Img4
-import D5 from '../src/assets/Data5.jpg' // import Img4
-import D6 from '../src/assets/Data6.jpg' // import Img4
-import D7 from '../src/assets/Data7.jpg' // import Img4
-import D8 from '../src/assets/Data8.webp' // import Img4
-import D9 from '../src/assets/Data9.jpg' // import Img4
-import D10 from '../src/assets/Data10.jpg' // import Img4
-import D11 from '../src/assets/Data11.jpg' // import Img4
-import D12 from '../src/assets/Data12.jpg' // import Img4
-import D13 from '../src/assets/Data13.jpg' // import Img4
-import D14 from '../src/assets/Data14.jpg' // import Img4
-import D15 from '../src/assets/Data15.jpg' // import Img4
-import D16 from '../src/assets/Data16.png' // import Img4
-import D17 from '../src/assets/Data17.jpg' // import Img4
-import D18 from '../src/assets/Data18.jpg' // import Img4
-import D19 from '../src/assets/Data19.jpeg' // import Img4
+import D1 from '../src/assets/data1.jpg' // import Img4
+import D2 from '../src/assets/data2.jpg' // import Img4
+import D3 from '../src/assets/data3.jpg' // import Img4
+import D4 from '../src/assets/data4.jpg' // import Img4
+import D5 from '../src/assets/data5.jpg' // import Img4
+import D6 from '../src/assets/data6.jpg' // import Img4
+import D7 from '../src/assets/data7.jpg' // import Img4
+import D8 from '../src/assets/data8.webp' // import Img4
+import D9 from '../src/assets/data9.jpg' // import Img4
+import D10 from '../src/assets/data10.jpg' // import Img4
+import D11 from '../src/assets/data11.jpg' // import Img4
+import D12 from '../src/assets/data12.jpg' // import Img4
+import D13 from '../src/assets/data13.jpg' // import Img4
+import D14 from '../src/assets/data14.jpg' // import Img4
+import D15 from '../src/assets/data15.jpg' // import Img4
+import D16 from '../src/assets/data16.png' // import Img4
+import D17 from '../src/assets/data17.jpg' // import Img4
+import D18 from '../src/assets/data18.jpg' // import Img4
+import D19 from '../src/assets/data19.jpeg' // import Img4
 
 
 export const productData = [
