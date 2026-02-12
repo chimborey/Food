@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { FaShoppingCart } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import Logo from '../assets/logo.jpg'
+import Logo from '../assets/Logo.jpg'
 import { MdCloseFullscreen } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ShopContext } from './ShopContext';
