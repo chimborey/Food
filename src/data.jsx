@@ -1,7 +1,7 @@
 
 
 import Img1 from '../src/assets/img04.jpg' // import Img4
-import D1 from '../../Food/src/assets/data1.jpg' // import Img4
+import D1 from '../src/assets/Data1.jpg' // import Img4
 import D2 from '../src/assets/Data2.jpg' // import Img4
 import D3 from '../src/assets/Data3.jpg' // import Img4
 import D4 from '../src/assets/Data4.jpg' // import Img4
