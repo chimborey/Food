@@ -2,8 +2,9 @@ import React, { useContext } from 'react'
 import { ShopContext } from './ShopContext';
 import { TbTrash } from "react-icons/tb";
 import { IoRemove } from 'react-icons/io5';
-import { IoMdAdd } from 'react-icons/io';
 import { RiShoppingBag3Line } from "react-icons/ri";
+import { IoMdAdd } from 'react-icons/io';
+import {SiSomething} from 'react-icons/si'
 const Cart = () => {
   const { cart, removeFromCart, clearCart, increaseQuantity, decreaseQuantity, quantity, total } = useContext(ShopContext)
   return (
